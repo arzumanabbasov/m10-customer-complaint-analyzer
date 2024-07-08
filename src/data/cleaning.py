@@ -70,6 +70,7 @@ if __name__ == "__main__":
     try:
         df = load_data(RAW_DATA_PATH)
         df = clean_data(df)
+        df = df.reset_index()
         df.to_json(os.path.join(parent_dir, 'data/processed/cleaned_comments_instagram.json'))
         logging.info("Data cleaning and processing completed successfully.")
 
