@@ -1,0 +1,6 @@
+pandas
+python-dotenv
+matplotlib
+mistral
+numpy
+scikit-learn
