@@ -579,3 +579,519 @@
 578	pain_point	transaction delays
 579	pain_point	cashback problems
 580	pain_point	transaction delays
+581	pain_point	user experience issues
+582	pain_point	cost of services
+583	else	None
+584	pain_point	limited functionality
+585	pain_point	limited functionality
+586	pain_point	limited functionality
+587	pain_point	cashback problems
+588	pain_point	transaction delays
+589	pain_point	limited functionality
+590	pain_point	cost of services
+591	pain_point	cost of services
+592	pain_point	security concerns
+593	pain_point	transaction delays
+594	pain_point	security concerns
+595	pain_point	transaction delays
+596	pain_point	cashback problems
+597	pain_point	cost of services
+598	pain_point	cashback problems
+599	else	None
+600	pain_point	user experience issues
+601	pain_point	cashback problems
+602	pain_point	cost of services
+603	else	None
+604	pain_point	cashback problems
+605	pain_point	limited functionality
+606	pain_point	transaction delays and limited functionality
+607	pain_point	transaction delays
+608	pain_point	limited functionality
+609	pain_point	cost of services
+610	pain_point	limited functionality
+611	pain_point	transaction delays
+612	pain_point	user experience issues
+613	pain_point	user experience issues
+614	pain_point	user experience issues
+615	pain_point	cost of services
+616	pain_point	transaction delays
+617	else	None
+618	pain_point	technical glitches
+619	pain_point	customer support issues
+620	pain_point	transaction delays
+621	pain_point	security concerns
+622	else	None
+623	pain_point	customer support issues
+624	else	None
+625	pain_point	cashback problems
+626	pain_point	transaction delays
+627	pain_point	transaction delays
+628	pain_point	user experience issues
+629	else	None
+630	pain_point	user experience issues
+631	pain_point	user experience issues
+632	else	None
+633	pain_point	security concerns
+634	pain_point	customer support issues
+635	pain_point	transaction delays
+636	pain_point	user experience issues
+637	pain_point	customer support issues
+638	pain_point	transaction delays, technical glitches, user experience issues
+639	pain_point	transaction delays, cost of services, customer support issues
+640	pain_point	limited functionality
+641	pain_point	limited functionality
+642	pain_point	technical glitches
+643	pain_point	user experience issues
+644	pain_point	transaction delays
+645	pain_point	cashback problems
+646	pain_point	cashback problems
+647	pain_point	user experience issues
+648	pain_point	transaction delays
+649	pain_point	user experience issues
+650	else	None
+651	pain_point	cost of services
+652	pain_point	security concerns
+653	pain_point	user experience issues
+654	pain_point	security concerns
+655	pain_point	security concerns
+656	pain_point	cost of services
+657	else	None
+658	pain_point	limited functionality
+659	else	None
+660	pain_point	customer support issues
+661	else	None
+662	else	None
+663	else	None
+664	pain_point	customer support issues
+665	else	None
+666	else	None
+667	pain_point	cost of services
+668	pain_point	user experience issues
+669	pain_point	user experience issues
+670	pain_point	transaction delays
+671	pain_point	['security concerns', 'user experience issues', 'customer support issues']
+672	pain_point	user experience issues
+673	else	None
+674	pain_point	transaction delays
+675	pain_point	transaction delays
+676	pain_point	user experience issues, customer support issues, data privacy concerns
+677	pain_point	transaction delays
+678	pain_point	transaction delays
+679	pain_point	cashback problems
+680	pain_point	limited functionality
+681	else	None
+682	pain_point	cashback problems
+683	else	None
+684	pain_point	regulatory compliance
+685	pain_point	customer support issues
+686	pain_point	user experience issues
+687	pain_point	customer support issues
+688	pain_point	security concerns
+689	pain_point	cashback problems
+690	pain_point	user experience issues
+691	pain_point	transaction delays
+692	pain_point	security concerns
+693	pain_point	transaction delays, cost of services
+694	pain_point	transaction delays, user experience issues
+695	pain_point	transaction delays
+696	else	None
+697	else	None
+698	else	None
+699	pain_point	transaction delays
+700	pain_point	user experience issues
+701	else	None
+702	pain_point	['security concerns', 'trust issues', 'customer support issues']
+703	pain_point	transaction delays, customer support issues
+704	pain_point	security concerns, transaction delays
+705	else	None
+706	pain_point	user experience issues
+707	pain_point	transaction delays
+708	pain_point	customer support issues
+709	pain_point	security concerns
+710	pain_point	security concerns
+711	pain_point	security concerns
+712	pain_point	customer support issues
+713	pain_point	customer support issues
+714	pain_point	user experience issues
+715	pain_point	customer support issues
+716	pain_point	security concerns
+717	pain_point	customer support issues
+719	pain_point	transaction delays, customer support issues, regulatory compliance
+720	pain_point	security concerns
+721	else	None
+722	else	None
+723	pain_point	user experience issues
+724	pain_point	transaction delays
+725	pain_point	user experience issues
+726	pain_point	user experience issues
+727	else	None
+728	pain_point	limited functionality
+729	pain_point	transaction delays
+730	else	None
+731	else	None
+732	else	None
+733	pain_point	user experience issues
+734	pain_point	transaction delays
+735	else	None
+736	pain_point	customer support issues
+737	else	None
+738	else	None
+739	pain_point	limited functionality
+740	else	None
+741	pain_point	cashback problems
+742	pain_point	cashback problems
+743	pain_point	cost of services
+744	else	None
+745	pain_point	cashback problems
+746	pain_point	user experience issues
+747	else	None
+748	pain_point	user experience issues
+749	else	None
+750	pain_point	transaction delays, cost of services
+751	pain_point	customer support issues
+752	else	None
+753	pain_point	user experience issues
+754	pain_point	user experience issues
+755	pain_point	customer support issues
+756	pain_point	limited functionality
+757	pain_point	user experience issues
+758	else	None
+759	pain_point	user experience issues
+760	pain_point	limited functionality
+761	pain_point	limited functionality
+762	pain_point	transaction delays
+763	pain_point	transaction delays
+764	pain_point	user experience issues
+765	else	None
+766	pain_point	cashback problems
+767	pain_point	customer support issues
+768	pain_point	security concerns
+769	pain_point	customer support issues
+770	pain_point	user experience issues
+771	pain_point	customer support issues, transaction delays
+772	else	None
+773	pain_point	technical glitches
+774	pain_point	limited functionality
+775	else	None
+776	pain_point	user experience issues
+777	else	None
+778	else	None
+779	pain_point	limited functionality
+780	pain_point	limited functionality
+781	else	None
+782	pain_point	technical glitches
+783	pain_point	limited functionality
+784	pain_point	limited functionality
+785	pain_point	limited functionality
+786	else	None
+787	else	None
+788	else	None
+789	pain_point	user experience issues
+790	pain_point	user experience issues
+791	pain_point	user experience issues
+792	pain_point	transaction delays
+793	pain_point	user experience issues
+794	pain_point	transaction delays
+795	pain_point	transaction delays
+796	pain_point	limited functionality
+797	pain_point	transaction delays
+798	else	None
+799	pain_point	technical glitches
+800	else	None
+801	pain_point	transaction delays
+802	pain_point	customer support issues
+803	pain_point	data privacy concerns
+804	pain_point	transaction delays
+805	pain_point	customer support issues
+806	pain_point	customer support issues
+807	pain_point	limited functionality
+808	pain_point	customer support issues
+809	pain_point	security concerns
+810	pain_point	customer support issues
+811	pain_point	security concerns
+812	pain_point	customer support issues
+813	pain_point	transaction delays
+814	pain_point	customer support issues
+815	pain_point	transaction delays
+816	pain_point	cost of services
+817	pain_point	transaction delays, customer support issues
+818	pain_point	security concerns
+819	pain_point	customer support issues
+820	pain_point	user experience issues
+821	pain_point	user experience issues
+822	pain_point	user experience issues
+823	pain_point	transaction delays
+824	pain_point	cost of services
+825	pain_point	user experience issues
+826	pain_point	customer support issues
+827	pain_point	customer support issues
+828	else	None
+829	pain_point	security concerns
+830	pain_point	security concerns
+831	else	None
+832	pain_point	data privacy concerns
+833	pain_point	cost of services
+834	pain_point	user experience issues
+835	pain_point	security concerns
+836	else	None
+837	pain_point	user experience issues
+838	else	None
+839	pain_point	transaction delays
+840	pain_point	transaction delays
+841	pain_point	cost of services
+842	pain_point	transaction delays, cost of services, limited functionality
+843	pain_point	transaction delays
+844	pain_point	transaction delays
+845	pain_point	transaction delays
+846	pain_point	transaction delays, cost of services, limited functionality
+847	pain_point	transaction delays, cost of services
+848	pain_point	user experience issues
+849	pain_point	transaction delays
+850	pain_point	transaction delays
+851	else	None
+852	else	None
+853	else	None
+854	else	None
+855	pain_point	customer support issues
+856	pain_point	transaction delays
+857	pain_point	customer support issues
+858	pain_point	security concerns
+859	pain_point	transaction delays
+860	else	None
+861	pain_point	security concerns
+862	pain_point	customer support issues
+863	pain_point	transaction delays
+864	pain_point	user experience issues
+865	else	None
+866	pain_point	security concerns
+867	pain_point	security concerns
+868	pain_point	user experience issues
+869	pain_point	security concerns
+870	pain_point	security concerns
+871	pain_point	security concerns
+872	pain_point	user experience issues
+873	pain_point	limited functionality
+874	pain_point	security concerns
+874	pain_point	transaction delays
+875	pain_point	user experience issues
+876	pain_point	user experience issues
+877	pain_point	cashback problems
+878	pain_point	user experience issues
+879	else	None
+880	pain_point	user experience issues
+881	pain_point	security concerns
+882	else	None
+883	pain_point	security concerns
+884	pain_point	customer support issues
+885	pain_point	customer support issues
+886	pain_point	transaction delays
+887	else	None
+888	pain_point	security concerns, transaction delays
+889	pain_point	technical glitches
+890	pain_point	regulatory compliance
+891	pain_point	cost of services
+892	pain_point	regulatory compliance
+893	pain_point	transaction delays
+894	pain_point	security concerns
+895	pain_point	user experience issues
+896	pain_point	transaction delays
+897	pain_point	user experience issues
+898	pain_point	transaction delays
+899	pain_point	customer support issues
+900	pain_point	transaction delays, user experience issues
+901	pain_point	transaction delays
+902	pain_point	customer support issues
+903	pain_point	cost of services
+904	pain_point	transaction delays
+905	pain_point	cost of services
+906	pain_point	customer support issues
+907	pain_point	transaction delays
+908	pain_point	customer support issues
+909	pain_point	transaction delays
+910	pain_point	cashback problems
+911	else	None
+912	else	None
+913	pain_point	user experience issues
+914	pain_point	user experience issues
+915	else	None
+916	pain_point	transaction delays
+917	pain_point	user experience issues
+918	pain_point	transaction delays
+919	pain_point	technical glitches
+920	pain_point	transaction delays
+921	pain_point	user experience issues
+922	pain_point	user experience issues
+923	pain_point	data privacy concerns
+924	else	None
+925	pain_point	transaction delays
+926	pain_point	transaction delays
+927	pain_point	technical glitches
+928	pain_point	transaction delays
+929	pain_point	user experience issues
+930	pain_point	user experience issues
+931	pain_point	security concerns
+932	pain_point	merchant acceptance issues
+933	pain_point	customer support issues
+934	else	None
+935	pain_point	limited functionality
+936	else	None
+937	pain_point	transaction delays
+938	pain_point	transaction delays
+939	else	None
+940	else	None
+941	else	None
+942	else	None
+943	pain_point	customer support issues
+944	else	None
+945	pain_point	transaction delays
+946	pain_point	technical glitches, limited functionality, transaction delays
+947	pain_point	cost of services
+948	pain_point	user experience issues
+949	else	None
+950	pain_point	customer support issues
+951	pain_point	user experience issues
+952	else	None
+953	pain_point	transaction delays, limited functionality, cashback problems
+954	pain_point	transaction delays and cost of services
+955	pain_point	transaction delays
+956	pain_point	transaction delays and cashback problems
+957	pain_point	user experience issues
+958	pain_point	limited functionality
+959	pain_point	transaction delays and user experience issues
+960	pain_point	user experience issues
+961	pain_point	technical glitches
+962	pain_point	transaction delays
+963	pain_point	user experience issues
+964	pain_point	transaction delays
+965	pain_point	transaction delays
+966	else	None
+967	else	None
+968	pain_point	cashback problems
+969	pain_point	cost of services
+970	pain_point	cost of services
+971	pain_point	user experience issues
+972	pain_point	limited functionality
+973	pain_point	cost of services
+974	pain_point	transaction delays
+975	pain_point	user experience issues
+976	pain_point	security concerns
+977	else	None
+978	pain_point	trust and regulatory compliance issues
+979	else	None
+980	pain_point	technical glitches
+981	pain_point	transaction delays
+982	pain_point	cost of services
+983	pain_point	cost of services
+984	pain_point	technical glitches
+985	pain_point	customer support issues
+986	pain_point	transaction delays
+987	else	None
+988	else	None
+989	else	None
+990	else	None
+991	else	None
+992	pain_point	user experience issues
+993	else	None
+994	pain_point	technical glitches
+995	else	None
+996	pain_point	user experience issues
+997	pain_point	['security concerns', 'limited functionality']
+998	pain_point	user experience issues
+999	pain_point	transaction delays
+1000	else	None
+1001	pain_point	user experience issues
+1002	else	None
+1003	pain_point	user experience issues
+1004	pain_point	user experience issues
+1005	else	None
+1006	pain_point	technical glitches
+1007	pain_point	security concerns
+1008	pain_point	user experience issues
+1009	pain_point	cost of services
+1010	pain_point	customer support issues
+1011	else	None
+1012	else	None
+1013	pain_point	transaction delays
+1014	else	None
+1015	pain_point	cashback problems
+1016	pain_point	transaction delays, regulatory compliance
+1017	pain_point	user experience issues
+1018	else	None
+1019	pain_point	customer support issues
+1020	pain_point	cost of services
+1021	pain_point	customer support issues
+1022	pain_point	technical glitches
+1023	else	None
+1024	else	None
+1025	else	None
+1026	pain_point	user experience issues
+1027	else	None
+1028	pain_point	transaction delays
+1029	pain_point	transaction delays
+1030	pain_point	technical glitches
+1031	else	None
+1032	pain_point	transaction delays
+1033	pain_point	transaction delays
+1034	else	None
+1035	pain_point	transaction delays
+1036	pain_point	user experience issues
+1037	else	None
+1038	pain_point	transaction delays
+1039	pain_point	user experience issues
+1040	else	None
+1041	else	None
+1042	else	None
+1043	pain_point	user experience issues
+1044	pain_point	customer support issues
+1045	else	None
+1046	pain_point	cashback problems
+1047	else	None
+1048	pain_point	user experience issues
+1049	pain_point	user experience issues
+1050	pain_point	transaction delays
+1051	pain_point	limited functionality
+1052	pain_point	limited functionality
+1053	pain_point	limited functionality
+1054	pain_point	transaction delays
+1055	pain_point	user experience issues
+1056	pain_point	user experience issues
+1057	else	None
+1058	else	None
+1059	pain_point	cashback problems
+1060	pain_point	cashback problems
+1061	else	None
+1062	pain_point	user experience issues
+1063	pain_point	user experience issues
+1064	pain_point	cost of services
+1065	pain_point	transaction delays
+1066	pain_point	transaction delays
+1067	pain_point	transaction delays
+1068	pain_point	user experience issues
+1069	else	None
+1070	pain_point	user experience issues
+1071	pain_point	limited functionality
+1072	pain_point	technical glitches
+1073	pain_point	user experience issues
+1074	else	None
+1075	pain_point	cost of services
+1076	pain_point	user experience issues
+1077	pain_point	user experience issues
+1078	pain_point	user experience issues
+1079	pain_point	technical glitches
+1080	pain_point	security concerns
+1081	pain_point	security concerns
+1082	pain_point	limited functionality
+1083	pain_point	user experience issues
+1084	pain_point	limited functionality
+1085	else	None
+1086	else	None
+1087	pain_point	limited functionality
+1088	else	None
+1089	pain_point	transaction delays, technical glitches
+1090	pain_point	limited functionality
+1091	pain_point	cashback problems
+1092	pain_point	limited functionality
+1093	pain_point	user experience issues
+1094	pain_point	user experience issues
+1095	pain_point	user experience issues
+1096	else	None

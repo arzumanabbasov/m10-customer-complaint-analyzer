@@ -58,9 +58,9 @@ def label_comment(dataframe: pd.DataFrame):
         response_json = json.loads(response_content)
         with open('labels.txt', 'a') as file:
             if response_json['is_pain']:
-                file.write(f"{i+544}\tpain_point\t{response_json['pain_type']}\n")
+                file.write(f"{i+874}\tpain_point\t{response_json['pain_type']}\n")
             else:
-                file.write(f"{i+544}\telse\tNone\n")
+                file.write(f"{i+874}\telse\tNone\n")
         print(i, end="\t")
         print(comment)
         print(response_content)
@@ -68,4 +68,4 @@ def label_comment(dataframe: pd.DataFrame):
 
 
 if __name__ == "__main__":
-    label_comment(df.iloc[544:, :])
+    label_comment(df.iloc[875:, :])
