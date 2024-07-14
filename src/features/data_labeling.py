@@ -5,6 +5,8 @@ import pandas as pd
 from dotenv import load_dotenv
 from mistralai.client import MistralClient
 from mistralai.models.chat_completion import ChatMessage
+from plyer import notification
+
 
 # Initialize logging
 logging.basicConfig(filename='labeling.log', level=logging.INFO)
@@ -56,16 +58,28 @@ def label_comment(dataframe: pd.DataFrame):
         )
         response_content = chat_response.choices[0].message.content
         response_json = json.loads(response_content)
-        with open('labels.txt', 'a') as file:
-            if response_json['is_pain']:
-                file.write(f"{i+874}\tpain_point\t{response_json['pain_type']}\n")
-            else:
-                file.write(f"{i+874}\telse\tNone\n")
+
         print(i, end="\t")
         print(comment)
         print(response_content)
         print("===== ===== =====")
 
+        try:
+            with open('second_labeling.txt', 'a') as file:
+                if response_json['is_pain']:
+                    file.write(f"{i}\tpain_point\t{response_json['pain_type']}\n")
+                else:
+                    file.write(f"{i}\telse\tNone\n")
+        except:
+            file.write(f"{i}\texception happened\tNone\n")
+            break
+
 
 if __name__ == "__main__":
-    label_comment(df.iloc[875:, :])
+    label_comment(df.iloc[1200:1300, :])
+    notification.notify(
+        title='Process Finished',
+        message="The process finished",
+        timeout=20,
+        )
+    

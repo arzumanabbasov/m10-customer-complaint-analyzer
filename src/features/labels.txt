@@ -1,3 +1,4 @@
+index	is_pain	pain_type
 0	else	None
 1	pain_point	cashback problems
 2	else	None
