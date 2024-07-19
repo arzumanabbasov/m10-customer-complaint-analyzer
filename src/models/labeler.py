@@ -12,7 +12,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(os.path.dirname(current_dir))
 
 # Update with your actual file path
-file_path = os.path.join(parent_dir, 'labeled_m10.xlsx')
+file_path = os.path.join(parent_dir, 'labeled_m10-cleaned.xlsx')
 
 # Load DataFrame
 df = pd.read_excel(file_path)
@@ -24,16 +24,13 @@ def save_changes(df, file_path):
 # Function to display a single sample
 def display_sample(index):
     sample = df.iloc[index]
-    st.write(f"**Owner Username:** {sample['ownerUsername']}")
     st.write(f"**Timestamp:** {sample['timestamp']}")
-    st.write(f"**Text:** {sample['text']}")
+    st.info(f"**Text:** {sample['text']}")
 
     # Current labels
-    st.write(f"**Current Is Pain:** {sample['is_pain']}")
-    st.write(f"**Current Pain Type:** {sample['pain_type']}")
+    st.error(f"**Current Pain Type:** {sample['pain_type']}")
 
     # Define options for selectbox
-    is_pain_options = ['else', 'pain_point', None, np.nan]
     pain_type_options = [None,
     "security concerns",
     "user experience issues",
@@ -46,14 +43,13 @@ def display_sample(index):
     "integration challenges",
     "data privacy concerns",
     "cashback problems",
-    "transparency concerns"]
+    "transparency concerns",
+    "limon"]
 
     # Label inputs
-    is_pain = st.selectbox('Is Pain:', options=is_pain_options, index=is_pain_options.index(sample['is_pain']) if sample['is_pain'] in is_pain_options else 0)
     pain_type = st.selectbox('Pain Type:', options=pain_type_options, index=pain_type_options.index(sample['pain_type']) if sample['pain_type'] in pain_type_options else 0)
 
     # Update the DataFrame with the new labels
-    df.at[index, 'is_pain'] = is_pain
     df.at[index, 'pain_type'] = pain_type
 
     # Save changes to the Excel file
